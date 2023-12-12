@@ -20,7 +20,8 @@
   gap: 20px;
   font-size: 20px;
 }
-.buttonOne{
+
+.buttonOne {
   position: relative;
   bottom: 5px;
   padding: 10px 20px;
@@ -29,7 +30,82 @@
   background-color: rgba(245, 138, 7, 0.10);
   color: #F58A07;
 }
-.footer{
+
+.footer {
   width: 100%;
-  background-color: rgba(0, 0, 255, 0.108);
+  height: 430px;
+  background: #063255;
+  padding: 80px 215px;
+  color: white;
+  overflow: hidden;
+}
+
+.footer .buttom {
+  padding: 50px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.i {
+  color: white;
+}
+
+.footer .buttom .buttonright {
+  display: flex;
+  gap: 43px;
+}
+
+.footer .buttom .buttonleft a {
+  color: white;
+}
+
+.footer .top .box1 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  font-size: 17px;
+}
+
+.footer .top .box1 h1 {
+  font-size: 30px;
+}
+
+.footer .top .box1 img {
+  width: 150px;
+}
+
+.footer .top .box1 .icon {
+  display: flex;
+  gap: 15px;
+}
+
+.footer .top {
+  display: flex;
+  gap: 10%;
+}
+
+.box2 {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+}
+
+.box4 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.inputone {
+  font-size: 20px;
+  padding: 10px 0 10px 20px;
+  border: none;
+  border-radius: 20px;
+}
+
+.right {
+  position: relative;
+  top: -60px;
+  left: -220px;
 }
