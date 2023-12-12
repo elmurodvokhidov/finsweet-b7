@@ -11,3 +11,4 @@ export function GlobalLink({ specialClass, text, to }) {
         <Link className={specialClass} to={to}>{text}</Link>
     )
 };
+
