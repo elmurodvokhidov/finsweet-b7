@@ -43,7 +43,6 @@ function Footer() {
                 </div>
             </div>
             <img className="right" src={right} alt="rasim" />
-
         </div>
     )
 }
