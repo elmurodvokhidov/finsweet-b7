@@ -12,9 +12,9 @@ function Navbar() {
         <li><NavLink to="services">Services</NavLink></li>
         <li><NavLink to="blog">Blog</NavLink></li>
         <li><NavLink to="contact">Contact us</NavLink></li>
-      </ul>
 
-      <GlobalBtn text={'Clone project'} specialClass={'buttonOne'} />
+        <GlobalBtn text={'Clone project'} specialClass={'buttonOne'} />
+      </ul>
     </div>
   )
 }

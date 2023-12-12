@@ -1,6 +1,6 @@
 function Careers() {
     return (
-        <div>Careers</div>
+        <div>Omonillo oka</div>
     )
 }
 

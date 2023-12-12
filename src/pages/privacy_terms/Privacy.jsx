@@ -1,6 +1,6 @@
 function Privacy() {
     return (
-        <div>Privacy</div>
+        <div>Ilhomjon</div>
     )
 }
 

@@ -1,6 +1,6 @@
 function Terms() {
     return (
-        <div>Terms</div>
+        <div>Asilbek</div>
     )
 }
 

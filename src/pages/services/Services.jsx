@@ -1,6 +1,6 @@
 function Services() {
     return (
-        <div>Services</div>
+        <div>Feruz</div>
     )
 }
 

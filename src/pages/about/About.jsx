@@ -1,6 +1,6 @@
 function About() {
     return (
-        <div>About</div>
+        <div>Shohida</div>
     )
 }
 
