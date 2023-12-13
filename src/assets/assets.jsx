@@ -3,6 +3,9 @@ import Qizsirkul from "../components/img/qizsirkul.png"
 import Qizimg from "../components/img/qizimg.png"
 import Qizicon from "../components/img/qizicon.png"
 import Kofeimg from "../components/img/kofe.png"
+import yilduz from "../components/img/Ribbon.png"
+import negir from "../components/img/rasim17.png"
+import { FaArrowRightLong } from "react-icons/fa6";
 
 export function GlobalBtn({ specialClass, text }) {
     return (
@@ -15,10 +18,11 @@ export function GlobalLink({ specialClass, text, to, arrow }) {
         <Link className={specialClass} to={to}>{text} <span id="arrow">{arrow}</span></Link>
     )
 };
+<<<<<<< HEAD
 
-
-export function Link2({ na, nam, nam1, nam2, nam3 }) {
-    return (
+=======
+export function Link2({na,nam,nam1,nam2,nam3}) {
+    return(
         <div className="box2">
             <h2>{na}</h2>
             <NavLink className="i" to={"about"}>{nam}</NavLink>
@@ -74,9 +78,9 @@ export function Cardone() {
     )
 }
 
-export function Cardtwo({ rasm1, matn1, matn2, matn3, rasm2, id }) {
+export function Cardtwo({ rasm1, matn1, matn2, matn3, rasm2 }) {
     return (
-        <div className="qolib" id={id}>
+        <div className="qolib">
             <img src={rasm1} alt="hoji" className="rasm" />
             <h2 className="m1">{matn1}</h2>
             <h4 className="k1">{matn2}</h4>
