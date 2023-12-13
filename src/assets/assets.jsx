@@ -11,9 +11,6 @@ export function GlobalLink({ specialClass, text, to }) {
         <Link className={specialClass} to={to}>{text}</Link>
     )
 };
-<<<<<<< HEAD
-
-=======
 export function Link2({na,nam,nam1,nam2,nam3}) {
     return(
         <div className="box2">
@@ -25,4 +22,3 @@ export function Link2({na,nam,nam1,nam2,nam3}) {
         </div>
     )
 }
->>>>>>> 019c69d8b3892aa44f862506fd5ea0fe56284616
