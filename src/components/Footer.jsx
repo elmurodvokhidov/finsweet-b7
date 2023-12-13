@@ -3,10 +3,10 @@ import { FaFacebookF } from "react-icons/fa";
 import { CiYoutube } from "react-icons/ci";
 import { FaInstagram } from "react-icons/fa";
 import { CiTwitter } from "react-icons/ci";
-import logo1 from "../../public/img/Logo 2.svg"
-import right from "../../public/img/right.png"
-import left from "../../public/img/left.png"
+import logo1 from "../img/Logo 2.svg"
+import right from "../img/right.png"
 import { Link2 } from "../assets/assets";
+
 function Footer() {
     return (
         <div className="footer">
@@ -43,7 +43,6 @@ function Footer() {
                 </div>
             </div>
             <img className="right" src={right} alt="rasim" />
-
         </div>
     )
 }

@@ -39,9 +39,7 @@
   color: white;
   overflow: hidden;
 }
-
-<<<<<<< HEAD
-.asos {
+.asos{
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -112,10 +110,6 @@
   position: absolute;
   margin-top: -305px;
 }
-
-.sa{
-  
-=======
 .footer .buttom {
   padding: 50px 0 0 0;
   display: flex;
@@ -184,5 +178,4 @@
   position: relative;
   top: -60px;
   left: -220px;
->>>>>>> 019c69d8b3892aa44f862506fd5ea0fe56284616
 }
