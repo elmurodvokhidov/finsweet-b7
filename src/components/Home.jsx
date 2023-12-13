@@ -1,9 +1,13 @@
-import { Cardone, Cardthere, Cardtwo } from '../assets/assets'
+import { Cardfour, Cardone, Cardthere, Cardtwo } from '../assets/assets'
 import hoji from './img/image (1).png'
 import iso from './img/image (2).png'
 import iso2 from './img/image (3).png'
 import iso3 from './img/image (4).png'
 import iso4 from './img/icon (2).svg'
+import tuy from './img/icon (3).svg'
+import tuy1 from './img/icon (4).svg'
+import tuy2 from './img/icon (5).svg'
+
 
 
 function Home() {
@@ -57,6 +61,13 @@ function Home() {
 
         <div className="figo">
           <Cardthere wer={"We are building software solution that solves your business challenges"} wer1={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et, mattis purus. Vivamus commodo suscipit tellus et pellentesque."} />
+        </div>
+
+        <div className="huy">
+          <Cardfour say={tuy} say2={"Invoicing"} say3={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et, "}/>
+          <Cardfour say={tuy1} say2={"Support"} say3={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et, "}/>
+          <Cardfour say={tuy2} say2={"Surveying"} say3={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et,  "}/>
+
         </div>
 
     </div>
