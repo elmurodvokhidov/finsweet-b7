@@ -39,20 +39,21 @@
   color: white;
   overflow: hidden;
 }
-.asos{
+
+.asos {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   height: 600px;
   background-color: #DCEAF5;
-  
+
 }
 
 .tetx {
   color: #1D3444;
   font-family: Poppins;
   font-size: 54px;
-  margin-left: 150px;
+  margin-left: 230px;
   margin-top: 100px;
 }
 
@@ -67,7 +68,7 @@
   color: #5B5B5B;
   font-family: Poppins;
   font-size: 18px;
-  margin-left: 150px;
+  margin-left: 230px;
   margin-top: 20px;
 }
 
@@ -79,13 +80,13 @@
   background-color: #F58A07;
   border: none;
   margin-top: 40px;
-  margin-left: 150px;
+  margin-left: 230px;
 }
 
 .tetx3 {
   position: absolute;
   margin-top: 55px;
-  margin-left: 350px;
+  margin-left: 450px;
 }
 
 .tetx4 {
@@ -94,22 +95,29 @@
   font-family: Poppins;
   font-size: 18px;
   margin-top: 130px;
-  margin-left: 150px;
+  margin-left: 230px;
 }
-.logo{
+
+.logo {
   margin-top: 200px;
-  margin-left: 150px;
+  margin-left: 230px;
 }
-.logo2{
+
+.logo2 {
   margin-left: 50px;
 }
-.logo3{
+
+.logo3 {
   margin-left: 50px;
 }
-.ili{
+
+.ili {
+  width: 800px;
   position: absolute;
-  margin-top: -305px;
+  margin-top: -240px;
+  /* margin-left: -10px; */
 }
+
 .footer .buttom {
   padding: 50px 0 0 0;
   display: flex;
@@ -178,4 +186,76 @@
   position: relative;
   top: -60px;
   left: -220px;
+}
+
+.asil {
+  width: 100%;
+  height: 300px;
+  background: #FFF;
+  padding: 0 220px;
+}
+
+.xat1 {
+  position: absolute;
+  color: #1D3444;
+  font-family: Poppins;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: -1.44px;
+  margin-top: 50px;
+}
+
+.xat2 {
+  position: absolute;
+  color: #5B5B5B;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  margin-top: 200px;
+}
+
+.rasm {
+  width: 300px;
+  height: 200px;
+
+}
+
+.cardtwo {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+}
+
+.qolib {
+  width: 300px;
+  height: 500px;
+}
+
+.h3 {
+  color: #F58A07;
+  margin-top: 10px;
+}
+
+.k1 {
+  color: #5B5B5B;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  margin-top: 10px;
+  /* 175% */
+}
+.icon999{
+  position: absolute;
+  margin-left: 110px;
+  margin-top: -15px;
+
+}
+.m1{
+  margin-top: 20px;
 }
