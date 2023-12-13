@@ -106,8 +106,85 @@ function About() {
                 <img src={img5} alt="" />
                 <img src={img6} alt="" />
             </div>
-          
-         
+            <div className={Style.section4}>
+                <div className={Style.text3}>
+                    <h1>Finsweet Was A Dream <br />
+                        To Work With
+                    </h1>
+                    <h5>Maecenas efficitur scelerisque lorem, et varius lacus <br />
+                        tincidunt vel. Pellentesque a arcu vitae diam dapibus mattis <br />
+                        vel vel orci. Vivamus eleifend nec felis vel auctor.
+                    </h5>
+                    <div className={Style.profil}>
+                        <img src={img11} alt="" />
+                        <div className={Style.text4}>
+                            <h3>Chikelu Neo</h3>
+                            <h6>CEO at MazeAI</h6>
+                        </div>
+                    </div>
+                </div>
+                <img src={img7} className={Style.img3} alt="img" />
+            </div>
+            <div className={Style.section5}>
+                <h2>Latest Blog & News</h2>
+                <div className={Style.card}>
+                    <div className={Style.card1}>
+                        <img src={img8} alt="img" />
+                        <div className={Style.text5}>
+                            <h3>Why you have to digitalize in <br />
+                                2021
+                            </h3>
+                            <h5>Lorem ipsum dolor sit amet, consectetur <br />
+                                adipiscing elit. Curabitur sit amet eros <br />
+                                blandit, hendrerit elit et.
+                            </h5>
+                            <div className={Style.text6}>
+                                <h5>Learxn More</h5>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="10" viewBox="0 0 22 10" fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M17.6338 0.198869L21.8079 4.51989C22.064 4.78505 22.064 5.21495 21.8079 5.48011L17.6338 9.80113C17.3776 10.0663 16.9623 10.0663 16.7062 9.80113C16.45 9.53597 16.45 9.10606 16.7062 8.8409L19.7606 5.67898L0 5.67898L0 4.32102L19.7606 4.32102L16.7062 1.1591C16.45 0.893936 16.45 0.464029 16.7062 0.198869C16.9623 -0.0662898 17.3776 -0.0662898 17.6338 0.198869Z" fill="#F58A07" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={Style.card1}>
+                        <img src={img9} alt="img" />
+                        <div className={Style.text5}>
+                            <h3>Why you have to digitalize in <br />
+                                2021
+                            </h3>
+                            <h5>Lorem ipsum dolor sit amet, consectetur <br />
+                                adipiscing elit. Curabitur sit amet eros <br />
+                                blandit, hendrerit elit et.
+                            </h5>
+                            <div className={Style.text6}>
+                                <h5>Learxn More</h5>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="10" viewBox="0 0 22 10" fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M17.6338 0.198869L21.8079 4.51989C22.064 4.78505 22.064 5.21495 21.8079 5.48011L17.6338 9.80113C17.3776 10.0663 16.9623 10.0663 16.7062 9.80113C16.45 9.53597 16.45 9.10606 16.7062 8.8409L19.7606 5.67898L0 5.67898L0 4.32102L19.7606 4.32102L16.7062 1.1591C16.45 0.893936 16.45 0.464029 16.7062 0.198869C16.9623 -0.0662898 17.3776 -0.0662898 17.6338 0.198869Z" fill="#F58A07" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={Style.card1}>
+                        <img src={img10} alt="img" />
+                        <div className={Style.text5}>
+                            <h3>Why you have to digitalize in <br />
+                                2021
+                            </h3>
+                            <h5>Lorem ipsum dolor sit amet, consectetur <br />
+                                adipiscing elit. Curabitur sit amet eros <br />
+                                blandit, hendrerit elit et.
+                            </h5>
+                            <div className={Style.text6}>
+                                <h5>Learxn More</h5>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="10" viewBox="0 0 22 10" fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M17.6338 0.198869L21.8079 4.51989C22.064 4.78505 22.064 5.21495 21.8079 5.48011L17.6338 9.80113C17.3776 10.0663 16.9623 10.0663 16.7062 9.80113C16.45 9.53597 16.45 9.10606 16.7062 8.8409L19.7606 5.67898L0 5.67898L0 4.32102L19.7606 4.32102L16.7062 1.1591C16.45 0.893936 16.45 0.464029 16.7062 0.198869C16.9623 -0.0662898 17.3776 -0.0662898 17.6338 0.198869Z" fill="#F58A07" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
     )
 }

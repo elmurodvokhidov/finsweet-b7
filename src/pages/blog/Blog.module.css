@@ -1,0 +1,45 @@
+.blog {
+    display: flex;
+    padding: 0 300px;
+    gap: 60px;
+    align-items: center;
+    height: 749px;
+    background: #DCEAF5;
+}
+
+.blog p {
+    color: #5B5B5B;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.blog h1 {
+    color: #1D3444;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -1.92px;
+}
+
+.user {
+    display: flex;
+    padding: 20px 0;
+    gap: 20px;
+    align-items: center;
+}
+
+
+.sal {
+    color: #F58A07;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 106.5%;
+    /* 17.04px */
+}
+
+.blog_right img {
+    border-radius: 20px;
+    background: url('../../components/img/Image.png'), lightgray 50% / cover no-repeat;
+}
