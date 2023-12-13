@@ -54,7 +54,7 @@
   color: #1D3444;
   font-family: Poppins;
   font-size: 54px;
-  margin-left: 150px;
+  margin-left: 230px;
   margin-top: 100px;
 }
 
@@ -69,7 +69,7 @@
   color: #5B5B5B;
   font-family: Poppins;
   font-size: 18px;
-  margin-left: 150px;
+  margin-left: 230px;
   margin-top: 20px;
 }
 
@@ -81,13 +81,13 @@
   background-color: #F58A07;
   border: none;
   margin-top: 40px;
-  margin-left: 150px;
+  margin-left: 230px;
 }
 
 .tetx3 {
   position: absolute;
   margin-top: 55px;
-  margin-left: 350px;
+  margin-left: 450px;
 }
 
 .tetx4 {
@@ -96,15 +96,14 @@
   font-family: Poppins;
   font-size: 18px;
   margin-top: 130px;
-
-  margin-left: 150px;
+  margin-left: 230px;
 
 }
 
 .logo {
   margin-top: 200px;
 
-  margin-left: 150px;
+  margin-left: 230px;
 
 }
 
@@ -120,7 +119,7 @@
 .ili {
 
   position: absolute;
-  margin-top: -305px;
+  margin-top: -332px;
 }
 
 
