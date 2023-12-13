@@ -1,15 +1,18 @@
-import { GlobalQiz, KofeQiz } from '../assets/assets'
-import { Cardone, Cardtwo } from '../assets/assets'
+import { Cardfour, Cardone, Cardthere, Cardtwo } from '../assets/assets'
 import hoji from './img/image (1).png'
 import iso from './img/image (2).png'
 import iso2 from './img/image (3).png'
 import iso3 from './img/image (4).png'
 import iso4 from './img/icon (2).svg'
+import tuy from './img/icon (3).svg'
+import tuy1 from './img/icon (4).svg'
+import tuy2 from './img/icon (5).svg'
+
 
 
 function Home() {
   return (
-    <div className='container'>
+    <div>
       <div className="asos">
         <div className="hoji">
           <h1 className="tetx">Prosper with our
@@ -42,25 +45,32 @@ function Home() {
             <rect x="5" y="30" width="1" height="1" fill="#4A5D69" />
           </svg>
           <img src={hoji} alt="hoji" className='ili' />
+
         </div>
-      </div>
-      <div className="kofeeqiz">
-        <KofeQiz />
-      </div>
-      <div className="Qizfooter">
-        <GlobalQiz />
+
+
       </div>
       <div className="cardone">
         <Cardone />
       </div>
-      <div className="cardtwo">
-        <Cardtwo rasm1={iso2} matn1={"Business strategy"} matn2={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et, "} matn3={"Learn More "} rasm2={iso4} />
-        <Cardtwo rasm1={iso} />
-        <Cardtwo rasm1={iso3} />
-      </div>
+        <div className="cardtwo">
+          <Cardtwo rasm1={iso2} matn1={"Business strategy"} matn2={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et, "}  matn3={"Learn More "} rasm2={iso4}/>
+          <Cardtwo rasm1={iso}  matn1={"Digitalization"} matn2={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et, "} matn3={"Learn More "} rasm2={iso4} />
+          <Cardtwo rasm1={iso3} matn1={"Risk assessment"}  matn2={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et, "}matn3={"Learn More "} rasm2={iso4} />
+        </div>
+
+        <div className="figo">
+          <Cardthere wer={"We are building software solution that solves your business challenges"} wer1={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et, mattis purus. Vivamus commodo suscipit tellus et pellentesque."} />
+        </div>
+
+        <div className="huy">
+          <Cardfour say={tuy} say2={"Invoicing"} say3={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et, "}/>
+          <Cardfour say={tuy1} say2={"Support"} say3={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et, "}/>
+          <Cardfour say={tuy2} say2={"Surveying"} say3={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et,  "}/>
+
+        </div>
 
     </div>
-
   )
 }
 

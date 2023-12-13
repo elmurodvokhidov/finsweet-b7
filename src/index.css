@@ -54,7 +54,7 @@
   color: #1D3444;
   font-family: Poppins;
   font-size: 54px;
-  margin-left: 150px;
+  margin-left: 230px;
   margin-top: 100px;
 }
 
@@ -69,7 +69,7 @@
   color: #5B5B5B;
   font-family: Poppins;
   font-size: 18px;
-  margin-left: 150px;
+  margin-left: 230px;
   margin-top: 20px;
 }
 
@@ -81,13 +81,13 @@
   background-color: #F58A07;
   border: none;
   margin-top: 40px;
-  margin-left: 150px;
+  margin-left: 230px;
 }
 
 .tetx3 {
   position: absolute;
   margin-top: 55px;
-  margin-left: 350px;
+  margin-left: 450px;
 }
 
 .tetx4 {
@@ -96,15 +96,14 @@
   font-family: Poppins;
   font-size: 18px;
   margin-top: 130px;
-
-  margin-left: 150px;
+  margin-left: 230px;
 
 }
 
 .logo {
   margin-top: 200px;
 
-  margin-left: 150px;
+  margin-left: 230px;
 
 }
 
@@ -120,7 +119,7 @@
 .ili {
 
   position: absolute;
-  margin-top: -305px;
+  margin-top: -332px;
 }
 
 
@@ -287,7 +286,7 @@ s.footer .buttom {
 }
 .asil{
   width: 100%;
-  height: 300px;
+  height: 350px;
   background: #FFF;
   padding: 0 220px;
 }
@@ -347,13 +346,81 @@ s.footer .buttom {
   margin-top: 10px;
   /* 175% */
 }
-.icon999{
+
+.icon999 {
   position: absolute;
   margin-left: 110px;
   margin-top: -15px;
 
 }
-.m1{
+
+.m1 {
+  margin-top: 20px;
+}
+
+.ota {
+  width: 100%;
+  height: 250px;
+  background: #EDF7FF;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.wer {
+  width: 500px;
+  height: 200px;
+  color: #0D1317;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: -1.08px;
+  margin-top: 50px;
+
+}
+
+.wer1 {
+  width: 500px;
+  height: 300px;
+  color: #1D3444;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  margin-top: 55px;
+
+}
+
+.ona {
+  width: 300px;
+  height: 250px;
+  background-color: white;
+  padding: 20px 50px;
+}
+
+.huy {
+  display: flex;
+  width: 100%;
+  height: 350px;
+  gap: 50px;
+  padding: 0px 230px;
+  background: #EDF7FF;
+}
+
+.xat8 {
   margin-top: 20px;
 
+}
+
+.xat9 {
+  margin-top: 20px;
+  color: #5B5B5B;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
 }

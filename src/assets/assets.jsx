@@ -85,3 +85,24 @@ export function Cardtwo({ rasm1, matn1, matn2, matn3, rasm2 }) {
         </div>
     )
 }
+
+export function  Cardthere({wer ,wer1}){
+    return(
+        <div className="ota">
+            <h1 className="wer">{wer}</h1>
+            <h4 className="wer1">{wer1}</h4>
+        </div>
+    )
+}
+
+export function Cardfour({say , say2 ,say3 }){
+    return(
+        <div className="ona">
+            <img src={say} alt="asa" className="qiz" />
+            <h2 className="xat8">{say2}</h2>
+            <h4 className="xat9">{say3}</h4>
+        </div>
+    )
+}
+
+
