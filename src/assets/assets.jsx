@@ -45,3 +45,20 @@ export function Cardtwo({rasm1 , matn1 , matn2 ,matn3 , rasm2}) {
     )
 }
 
+export function  Cardthere({wer ,wer1}){
+    return(
+        <div className="ota">
+            <h1 className="wer">{wer}</h1>
+            <h4 className="wer1">{wer1}</h4>
+        </div>
+    )
+}
+
+export function Cardfour({}){
+    return(
+        <div className="ona">
+            
+        </div>
+    )
+}
+
