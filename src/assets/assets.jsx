@@ -18,9 +18,6 @@ export function GlobalLink({ specialClass, text, to, arrow }) {
         <Link className={specialClass} to={to}>{text} <span id="arrow">{arrow}</span></Link>
     )
 };
-<<<<<<< HEAD
-
-=======
 export function Link2({na,nam,nam1,nam2,nam3}) {
     return(
         <div className="box2">
