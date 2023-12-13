@@ -18,8 +18,8 @@ export function GlobalLink({ specialClass, text, to, arrow }) {
         <Link className={specialClass} to={to}>{text} <span id="arrow">{arrow}</span></Link>
     )
 };
-export function Link2({na,nam,nam1,nam2,nam3}) {
-    return(
+export function Link2({ na, nam, nam1, nam2, nam3 }) {
+    return (
         <div className="box2">
             <h2>{na}</h2>
             <NavLink className="i" to={"about"}>{nam}</NavLink>
@@ -75,9 +75,9 @@ export function Cardone() {
     )
 }
 
-export function Cardtwo({ rasm1, matn1, matn2, matn3, rasm2 }) {
+export function Cardtwo({ rasm1, matn1, matn2, matn3, rasm2, id }) {
     return (
-        <div className="qolib">
+        <div className="qolib" id={id}>
             <img src={rasm1} alt="hoji" className="rasm" />
             <h2 className="m1">{matn1}</h2>
             <h4 className="k1">{matn2}</h4>
@@ -87,8 +87,8 @@ export function Cardtwo({ rasm1, matn1, matn2, matn3, rasm2 }) {
     )
 }
 
-export function  Cardthere({wer ,wer1}){
-    return(
+export function Cardthere({ wer, wer1 }) {
+    return (
         <div className="ota">
             <h1 className="wer">{wer}</h1>
             <h4 className="wer1">{wer1}</h4>
@@ -96,8 +96,8 @@ export function  Cardthere({wer ,wer1}){
     )
 }
 
-export function Cardfour({say , say2 ,say3 }){
-    return(
+export function Cardfour({ say, say2, say3 }) {
+    return (
         <div className="ona">
             <img src={say} alt="asa" className="qiz" />
             <h2 className="xat8">{say2}</h2>
