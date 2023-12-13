@@ -3,6 +3,9 @@ import Qizsirkul from "../components/img/qizsirkul.png"
 import Qizimg from "../components/img/qizimg.png"
 import Qizicon from "../components/img/qizicon.png"
 import Kofeimg from "../components/img/kofe.png"
+import yilduz from "../components/img/Ribbon.png"
+import negir from "../components/img/rasim17.png"
+import { FaArrowRightLong } from "react-icons/fa6";
 
 export function GlobalBtn({ specialClass, text }) {
     return (
@@ -82,6 +85,34 @@ export function Cardtwo({ rasm1, matn1, matn2, matn3, rasm2 }) {
             <h4 className="k1">{matn2}</h4>
             <h3 className="h3">{matn3}</h3>
             <img src={rasm2} alt="as" className="icon999" />
+        </div>
+    )
+}
+export function Yulduz() {
+    return (
+        <div className="yulduz">
+            <div className="yulduz1">
+                <div className="box1">
+                    <button className="btn11" >Business strategy</button>
+                    <button className="btn11" >Digitalization</button>
+                    <button className="btn11">Risk assessment</button>
+                </div>
+                <div className="box2">
+                    <img className="yulduz55" src={yilduz} alt="yulduz" />
+                </div>
+            </div>
+            <div className="yulduz2">
+                <div className="box21">
+                    <h1>Helping clients with <br /> research and strategy <br /> for their business</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et, mattis purus. Vivamus commodo suscipit tellus et pellentesque. <br /><br />
+
+                        Mattis purus. Vivamus commodo suscipit tellus et pellent. Curabitur sit amet eros blan esque. </p>
+                    <h3>See all services <FaArrowRightLong /></h3>
+                </div>
+                <div className="box22">
+                    <img src={negir} alt="" />
+                </div>
+            </div>
         </div>
     )
 }

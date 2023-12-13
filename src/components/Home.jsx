@@ -1,4 +1,4 @@
-import { GlobalQiz, KofeQiz } from '../assets/assets'
+import { GlobalQiz, KofeQiz, Yulduz } from '../assets/assets'
 import { Cardone, Cardtwo } from '../assets/assets'
 import hoji from './img/image (1).png'
 import iso from './img/image (2).png'
@@ -43,6 +43,9 @@ function Home() {
           </svg>
           <img src={hoji} alt="hoji" className='ili' />
         </div>
+      </div>
+      <div className="yulduz23">
+        <Yulduz />
       </div>
       <div className="kofeeqiz">
         <KofeQiz />
