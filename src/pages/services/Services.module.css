@@ -93,8 +93,8 @@ li {
 
 }
 
-.rasm1 {
-    width: 40%;
+img {
+    width: 100%;
     height: 80vh;
     background-image: url("./img1.png");
     background-repeat: no-repeat;
@@ -102,7 +102,7 @@ li {
     background-position: center;
     border-radius: 20px;
 }
-
+/* 
 .rasm3 {
     width: 40%;
     height: 80vh;
@@ -114,7 +114,7 @@ li {
     z-index: 30;
     border-radius: 20px;
 
-}
+} */
 
 .h0 {
     color: #0D1317;
@@ -125,7 +125,7 @@ li {
     text-transform: capitalize;
     width: 70%;
 }
-
+/* 
 .rasm0 {
     width: 45%;
     height: 80vh;
@@ -135,7 +135,7 @@ li {
     background-position: center;
     border-radius: 20px;
 
-}
+} */
 
 .port {
     width: 40%;
@@ -177,7 +177,7 @@ li {
     align-items: center;
     justify-content: center;
 }
-
+/* 
 .rasm10 {
     width: 40%;
     height: 8vh;
@@ -187,7 +187,7 @@ li {
     background-position: center;
     border-radius: 50%;
     margin-right: 150px;
-}
+} */
 
 .h10 {
     color: #063255;
@@ -216,7 +216,7 @@ li {
     width: 60%;
 }
 
-.rasm4 {
+/* .rasm4 {
     width: 40%;
     height: 80vh;
     background-image: url("./img4.png");
@@ -226,7 +226,7 @@ li {
     border-radius: 20px;
     margin-left: 50px;
 
-}
+} */
 
 .p3 {
     color: #5B5B5B;
@@ -244,7 +244,7 @@ li {
     line-height: 56px;
     letter-spacing: -1.44px;
 }
-
+/* 
 .rasm2 {
     width: 40%;
     height: 80vh;
@@ -254,7 +254,7 @@ li {
     background-position: center;
     border-radius: 20px;
     margin-left: 50px;
-}
+} */
 
 .h2 {
     color: #1D3444;
