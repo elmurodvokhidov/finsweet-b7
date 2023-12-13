@@ -3,20 +3,94 @@ import rasm1 from "./img1.png"
 import rasm2 from "./img2.png"
 import rasm3 from "./img3.png"
 import rasm4 from "./img4.png"
+import rasm5 from "./img5.png"
+import rasm6 from "./img6.png"
 import { Box1 } from "./Box1"
+import { GlobalQiz } from "../../assets/assets"
+
 
 
 function Services() {
     return (
         <div className={Styles.servise}>
-            <Box1 rasm={rasm1} rasm1={rasm2} />
-            {/* <Box1  rasm={rasm3} rasm1={rasm4} /> */}
+            <Box1 rasm={rasm1} rasm1={rasm2} text={"We serve clients with ground breaking solutions"} text1={"Business strategy"}/>
+            <Box1  rasm={rasm3} rasm1={rasm4} text={"Digitalization"} text1={"Risk assessment"}/>
+            <Box1  rasm={rasm5} rasm1={rasm6}  text={"Artificial intelligence"} text1={"Smart Contracts"}/>
+            <GlobalQiz />s
+
+
+
+
+        </div>
+    )
+}
+
+export default Services
 
 
 
 
 
-            {/* <div className={Styles.box}>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ {/* <div className={Styles.box}>
                 <div className={Styles.tepa}>
                     <div className={Styles.chap}>
                         <h2 className={Styles.h5}>Digitalization</h2>
@@ -79,10 +153,3 @@ function Services() {
                 </div>
 
     </div>*/}
-        </div>
-    )
-}
-
-export default Services
-
-
