@@ -1,10 +1,11 @@
 import { NavLink } from "react-router-dom"
 import { GlobalBtn } from "../assets/assets"
+import logo from "../img/Logo.svg"
 
 function Navbar() {
   return (
     <div className="navbar">
-      <NavLink to="/"><img src="./img/Logo.svg" alt="logo" /></NavLink>
+      <NavLink to="/"><img src={logo} alt="logo" /></NavLink>
 
       <ul>
         <li><NavLink to="about">About Us</NavLink></li>

@@ -20,7 +20,8 @@
   gap: 20px;
   font-size: 20px;
 }
-.buttonOne{
+
+.buttonOne {
   position: relative;
   bottom: 5px;
   padding: 10px 20px;
@@ -29,7 +30,232 @@
   background-color: rgba(245, 138, 7, 0.10);
   color: #F58A07;
 }
-.footer{
+
+.footer {
   width: 100%;
-  background-color: rgba(0, 0, 255, 0.108);
+  height: 430px;
+  background: #063255;
+  padding: 80px 215px;
+  color: white;
+  overflow: hidden;
+}
+
+.asos {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 600px;
+  background-color: #DCEAF5;
+
+}
+
+.tetx {
+  color: #1D3444;
+  font-family: Poppins;
+  font-size: 54px;
+  margin-left: 230px;
+  margin-top: 100px;
+}
+
+.hoji {
+  position: absolute;
+  width: 100%;
+  height: 600px;
+  background-color: #DCEAF5;
+}
+
+.tetx2 {
+  color: #5B5B5B;
+  font-family: Poppins;
+  font-size: 18px;
+  margin-left: 230px;
+  margin-top: 20px;
+}
+
+.feruz {
+  position: absolute;
+  width: 150px;
+  height: 45px;
+  border-radius: 20px;
+  background-color: #F58A07;
+  border: none;
+  margin-top: 40px;
+  margin-left: 230px;
+}
+
+.tetx3 {
+  position: absolute;
+  margin-top: 55px;
+  margin-left: 450px;
+}
+
+.tetx4 {
+  position: absolute;
+  color: rgba(57, 65, 73, 0.50);
+  font-family: Poppins;
+  font-size: 18px;
+  margin-top: 130px;
+  margin-left: 230px;
+}
+
+.logo {
+  margin-top: 200px;
+  margin-left: 230px;
+}
+
+.logo2 {
+  margin-left: 50px;
+}
+
+.logo3 {
+  margin-left: 50px;
+}
+
+.ili {
+  width: 800px;
+  position: absolute;
+  margin-top: -240px;
+  /* margin-left: -10px; */
+}
+
+.footer .buttom {
+  padding: 50px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.i {
+  color: white;
+}
+
+.footer .buttom .buttonright {
+  display: flex;
+  gap: 43px;
+}
+
+.footer .buttom .buttonleft a {
+  color: white;
+}
+
+.footer .top .box1 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  font-size: 17px;
+}
+
+.footer .top .box1 h1 {
+  font-size: 30px;
+}
+
+.footer .top .box1 img {
+  width: 150px;
+}
+
+.footer .top .box1 .icon {
+  display: flex;
+  gap: 15px;
+}
+
+.footer .top {
+  display: flex;
+  gap: 10%;
+}
+
+.box2 {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+}
+
+.box4 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.inputone {
+  font-size: 20px;
+  padding: 10px 0 10px 20px;
+  border: none;
+  border-radius: 20px;
+}
+
+.right {
+  position: relative;
+  top: -60px;
+  left: -220px;
+}
+
+.asil {
+  width: 100%;
+  height: 300px;
+  background: #FFF;
+  padding: 0 220px;
+}
+
+.xat1 {
+  position: absolute;
+  color: #1D3444;
+  font-family: Poppins;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: -1.44px;
+  margin-top: 50px;
+}
+
+.xat2 {
+  position: absolute;
+  color: #5B5B5B;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  margin-top: 200px;
+}
+
+.rasm {
+  width: 300px;
+  height: 200px;
+
+}
+
+.cardtwo {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+}
+
+.qolib {
+  width: 300px;
+  height: 500px;
+}
+
+.h3 {
+  color: #F58A07;
+  margin-top: 10px;
+}
+
+.k1 {
+  color: #5B5B5B;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  margin-top: 10px;
+  /* 175% */
+}
+.icon999{
+  position: absolute;
+  margin-left: 110px;
+  margin-top: -15px;
+
+}
+.m1{
+  margin-top: 20px;
 }
