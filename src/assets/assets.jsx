@@ -14,11 +14,10 @@ export function GlobalLink({ specialClass, text, to, arrow }) {
     return (
         <Link className={specialClass} to={to}>{text} <span id="arrow">{arrow}</span></Link>
     )
-};
-<<<<<<< HEAD
-=======
+}
+;
 
->>>>>>> da9fee33cb3450a8beaf39f8ed3b1ba50a55ea21
+
 export function Link2({ na, nam, nam1, nam2, nam3 }) {
     return (
         <div className="box2">
@@ -30,16 +29,16 @@ export function Link2({ na, nam, nam1, nam2, nam3 }) {
         </div>
     )
 }
-<<<<<<< HEAD
+
 export function KofeQiz() {
-    return(
+    return (
         <div className="kofeqiz">
             <div className="koferight">
                 <img src={Kofeimg} alt="kofe" />
             </div>
             <div className="kofeleft">
                 <h1>Energy of a start-up <br /> combined with 30 <br /> years of experience.</h1>
-                <GlobalBtn specialClass={"kofebtn"}  text={"See Job Vacancies"}/>
+                <GlobalBtn specialClass={"kofebtn"} text={"See Job Vacancies"} />
             </div>
         </div>
     )
@@ -66,7 +65,7 @@ export function GlobalQiz() {
         </div>
     )
 }
-=======
+
 export function Cardone() {
     return (
         <div className="asil">
@@ -77,16 +76,16 @@ export function Cardone() {
     )
 }
 
-export function Cardtwo({rasm1 , matn1 , matn2 ,matn3 , rasm2}) {
-    return(
+export function Cardtwo({ rasm1, matn1, matn2, matn3, rasm2 }) {
+    return (
         <div className="qolib">
-            <img src={rasm1} alt="hoji"  className="rasm"/>
+            <img src={rasm1} alt="hoji" className="rasm" />
             <h2 className="m1">{matn1}</h2>
             <h4 className="k1">{matn2}</h4>
             <h3 className="h3">{matn3}</h3>
-            <img src={rasm2} alt="as" className="icon999"/>
+            <img src={rasm2} alt="as" className="icon999" />
         </div>
     )
 }
 
->>>>>>> da9fee33cb3450a8beaf39f8ed3b1ba50a55ea21
+
