@@ -74,9 +74,9 @@ export function Cardone() {
     )
 }
 
-export function Cardtwo({ rasm1, matn1, matn2, matn3, rasm2 }) {
+export function Cardtwo({ rasm1, matn1, matn2, matn3, rasm2, id }) {
     return (
-        <div className="qolib">
+        <div className="qolib" id={id}>
             <img src={rasm1} alt="hoji" className="rasm" />
             <h2 className="m1">{matn1}</h2>
             <h4 className="k1">{matn2}</h4>

@@ -6,7 +6,7 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
- font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .navbar {
@@ -286,7 +286,8 @@ s.footer .buttom {
   letter-spacing: -1.44px;
   font-size: 20px;
 }
-.asil{
+
+.asil {
   width: 100%;
   height: 350px;
   background: #FFF;
@@ -317,8 +318,9 @@ s.footer .buttom {
 }
 
 .rasm {
-  width: 300px;
-  height: 200px;
+  width: 100%;
+  height: 30vh;
+  border-radius: 20px 20px 0 0;
 
 }
 
@@ -336,6 +338,8 @@ s.footer .buttom {
 .h3 {
   color: #F58A07;
   margin-top: 10px;
+  margin-left: 20px;
+
 }
 
 .k1 {
@@ -346,18 +350,28 @@ s.footer .buttom {
   font-weight: 500;
   line-height: 28px;
   margin-top: 10px;
-  /* 175% */
+  margin-left: 20px;
+
 }
 
 .icon999 {
   position: absolute;
-  margin-left: 110px;
-  margin-top: -15px;
+  margin-left: 130px;
+  margin-top: -17px;
 
 }
 
 .m1 {
   margin-top: 20px;
+  color: #0D1317;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  /* 150% */
+  letter-spacing: -0.72px;
+  margin-left: 20px;
 }
 
 .ota {
@@ -425,4 +439,10 @@ s.footer .buttom {
   font-style: normal;
   font-weight: 500;
   line-height: 28px;
+}
+
+#card {
+  border-radius: 20px;
+  background: #FFF;
+  width: 25%;
 }

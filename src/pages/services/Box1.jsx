@@ -2,14 +2,14 @@ import Styles from "./Services.module.css"
 
 
 
-export function Box1({rasm,rasm1,text,text1}) {
+export function Box1({rasm,rasm1,text,text1, btn}) {
     return (
         <div className={Styles.box}>
             <div className={Styles.tepa}>
                 <div className={Styles.chap}>
                     <h2 className={Styles.h2}>{text}</h2>
                     <p className={Styles.p}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo odio, sagittis quis ornare quis.</p>
-                    <button>Work With Us</button>
+                    {btn && <button className={Styles.btn}>Work With Us</button>}
                 </div>
                 <div className={Styles.right}>
                     <img className={Styles.img} src={rasm} alt="" />
