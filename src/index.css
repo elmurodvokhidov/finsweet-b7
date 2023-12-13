@@ -4,6 +4,7 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
+  font-family: sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .navbar {
@@ -46,7 +47,7 @@
   width: 100%;
   height: 600px;
   background-color: #DCEAF5;
-  
+
 }
 
 .tetx {
@@ -97,22 +98,26 @@
   margin-top: 130px;
   margin-left: 150px;
 }
-.logo{
+
+.logo {
   margin-top: 200px;
   margin-left: 150px;
 }
-.logo2{
+
+.logo2 {
   margin-left: 50px;
 }
-.logo3{
+
+.logo3 {
   margin-left: 50px;
 }
-.ili{
+
+.ili {
   position: absolute;
   margin-top: -305px;
 }
 
-  
+
 .footer .buttom {
   padding: 50px 0 0 0;
   display: flex;
@@ -181,4 +186,93 @@
   position: relative;
   top: -60px;
   left: -220px;
+}
+
+.GlobalQizone {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 90px 0 50px 0;
+  gap: 50px;
+}
+
+.GlobalQizone .qizright {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+  width: 35%;
+}
+
+.GlobalQizone .qizright h1 {
+  font-size: 45px;
+}
+
+.GlobalQizone .qizright p {
+  color: #5B5B5B;
+  line-height: 30px;
+}
+
+.GlobalQizone .qizright .qizoneone {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.GlobalQizone .qizright .qizoneone .qizname {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.GlobalQizone .qizright .qizoneone .qizname h2 {
+  color: #063255;
+}
+
+.GlobalQizone .qizright .qizoneone .qizname h4 {
+  color: #F58A07;
+}
+
+.GlobalQizone .qizleft .qizimg1 {
+  width: 500px;
+}
+
+.GlobalQizone .qizleft .qizimg2 {
+  position: relative;
+  top: -80px;
+  left: 20px;
+}
+
+.kofeqiz {
+  display: flex;
+  overflow: hidden;
+  background-color: #F58A07;
+}
+
+.kofeqiz img {
+  width: 100%;
+  scale: 1.02
+}
+
+.kofebtn {
+  width: 170px;
+  padding: 0 10px;
+  color: #F58A07;
+  background-color: white;
+}
+.kofeqiz .koferight{
+  width: 50%;
+  background-color: red;
+}
+
+.kofeqiz .kofeleft {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding-left: 200px;
+  gap: 40px;
+  justify-content: center;
+  line-height: 46px;
+  letter-spacing: -1.44px;
+  font-size: 20px;
 }
