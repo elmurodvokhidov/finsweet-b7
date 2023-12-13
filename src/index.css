@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 * {
   padding: 0;
   margin: 0;
@@ -56,7 +54,7 @@
   color: #1D3444;
   font-family: Poppins;
   font-size: 54px;
-  margin-left: 230px;
+  margin-left: 150px;
   margin-top: 100px;
 }
 
@@ -71,7 +69,7 @@
   color: #5B5B5B;
   font-family: Poppins;
   font-size: 18px;
-  margin-left: 230px;
+  margin-left: 150px;
   margin-top: 20px;
 }
 
@@ -83,13 +81,13 @@
   background-color: #F58A07;
   border: none;
   margin-top: 40px;
-  margin-left: 230px;
+  margin-left: 150px;
 }
 
 .tetx3 {
   position: absolute;
   margin-top: 55px;
-  margin-left: 450px;
+  margin-left: 350px;
 }
 
 .tetx4 {
@@ -98,14 +96,15 @@
   font-family: Poppins;
   font-size: 18px;
   margin-top: 130px;
-  margin-left: 230px;
+
+  margin-left: 150px;
 
 }
 
 .logo {
   margin-top: 200px;
 
-  margin-left: 230px;
+  margin-left: 150px;
 
 }
 
@@ -121,7 +120,7 @@
 .ili {
 
   position: absolute;
-  margin-top: -332px;
+  margin-top: -305px;
 }
 
 
@@ -286,9 +285,10 @@ s.footer .buttom {
   letter-spacing: -1.44px;
   font-size: 20px;
 }
-.asil{
+
+.asil {
   width: 100%;
-  height: 350px;
+  height: 300px;
   background: #FFF;
   padding: 0 220px;
 }
@@ -317,8 +317,9 @@ s.footer .buttom {
 }
 
 .rasm {
-  width: 300px;
-  height: 200px;
+  width: 100%;
+  height: 30vh;
+  border-radius: 20px 20px 0 0;
 
 }
 
@@ -342,6 +343,8 @@ s.footer .buttom {
 .h3 {
   color: #F58A07;
   margin-top: 10px;
+  margin-left: 20px;
+
 }
 
 .k1 {
@@ -352,83 +355,57 @@ s.footer .buttom {
   font-weight: 500;
   line-height: 28px;
   margin-top: 10px;
-  /* 175% */
-}
+  margin-left: 20px;
 
-.icon999 {
+}
+.icon999{
   position: absolute;
-  margin-left: 110px;
-  margin-top: -15px;
+  margin-left: 130px;
+  margin-top: -17px;
 
 }
-
-.m1 {
+.m1{
   margin-top: 20px;
 }
 
 .ota {
   width: 100%;
-  height: 250px;
+  padding: 100px 0 100px 200px;
+}
+.yulduz{
+  width: 80%;
   background: #EDF7FF;
+  padding: 20px;
+}
+.yulduz .yulduz1{
   display: flex;
+  align-items: center;
+}
+.yulduz1{
+  display: flex;
+  justify-content: space-between;
+}
+.btn11{
+  margin-right: 10px;
+  transition: all 2s;
+  color: #638098;
+  border: 1px solid #A8BCCC;
+  background: #EDF7FF;
+}
+.btn11:hover{
+  background-color:white;
+  color: #F58A07;
+}
+.yulduz2{
+  display: flex;
+}
+.yulduz2 .box21{
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  gap: 50px;
+  gap: 30px;
+  padding: 0 120px 0 0;
 }
-
-.wer {
-  width: 500px;
-  height: 200px;
-  color: #0D1317;
-  font-family: Poppins;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 44px;
-  letter-spacing: -1.08px;
-  margin-top: 50px;
-
-}
-
-.wer1 {
-  width: 500px;
-  height: 300px;
-  color: #1D3444;
-  font-family: Poppins;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 30px;
-  margin-top: 55px;
-
-}
-
-.ona {
-  width: 300px;
-  height: 250px;
-  background-color: white;
-  padding: 20px 50px;
-}
-
-.huy {
-  display: flex;
-  width: 100%;
-  height: 350px;
-  gap: 50px;
-  padding: 0px 230px;
-  background: #EDF7FF;
-}
-
-.xat8 {
-  margin-top: 20px;
-
-}
-
-.xat9 {
-  margin-top: 20px;
-  color: #5B5B5B;
-  font-family: Poppins;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 28px;
+.yulduz2 .box21 h3{
+  color: #F58A07;
 }
