@@ -15,10 +15,8 @@ export function GlobalLink({ specialClass, text, to, arrow }) {
         <Link className={specialClass} to={to}>{text} <span id="arrow">{arrow}</span></Link>
     )
 };
-<<<<<<< HEAD
-=======
 
->>>>>>> da9fee33cb3450a8beaf39f8ed3b1ba50a55ea21
+
 export function Link2({ na, nam, nam1, nam2, nam3 }) {
     return (
         <div className="box2">
@@ -30,7 +28,7 @@ export function Link2({ na, nam, nam1, nam2, nam3 }) {
         </div>
     )
 }
-<<<<<<< HEAD
+
 export function KofeQiz() {
     return(
         <div className="kofeqiz">
@@ -66,7 +64,6 @@ export function GlobalQiz() {
         </div>
     )
 }
-=======
 export function Cardone() {
     return (
         <div className="asil">
@@ -89,4 +86,3 @@ export function Cardtwo({rasm1 , matn1 , matn2 ,matn3 , rasm2}) {
     )
 }
 
->>>>>>> da9fee33cb3450a8beaf39f8ed3b1ba50a55ea21

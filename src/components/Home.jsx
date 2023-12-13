@@ -1,5 +1,4 @@
 import { GlobalQiz, KofeQiz } from '../assets/assets'
-import hoji from './img/image.png'
 import { Cardone, Cardtwo } from '../assets/assets'
 import hoji from './img/image (1).png'
 import iso from './img/image (2).png'
