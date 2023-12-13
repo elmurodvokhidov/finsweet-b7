@@ -14,8 +14,7 @@ export function GlobalLink({ specialClass, text, to, arrow }) {
     return (
         <Link className={specialClass} to={to}>{text} <span id="arrow">{arrow}</span></Link>
     )
-}
-;
+};
 
 
 export function Link2({ na, nam, nam1, nam2, nam3 }) {
@@ -65,7 +64,6 @@ export function GlobalQiz() {
         </div>
     )
 }
-
 export function Cardone() {
     return (
         <div className="asil">
@@ -87,5 +85,3 @@ export function Cardtwo({ rasm1, matn1, matn2, matn3, rasm2 }) {
         </div>
     )
 }
-
-
