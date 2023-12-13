@@ -1,9 +1,16 @@
 import { GlobalQiz, KofeQiz } from '../assets/assets'
 import hoji from './img/image.png'
+import { Cardone, Cardtwo } from '../assets/assets'
+import hoji from './img/image (1).png'
+import iso from './img/image (2).png'
+import iso2 from './img/image (3).png'
+import iso3 from './img/image (4).png'
+import iso4 from './img/icon (2).svg'
+
+
 function Home() {
   return (
     <div className='container'>
-
       <div className="asos">
         <div className="hoji">
           <h1 className="tetx">Prosper with our
@@ -44,8 +51,17 @@ function Home() {
       <div className="Qizfooter">
         <GlobalQiz />
       </div>
+      <div className="cardone">
+        <Cardone />
+      </div>
+      <div className="cardtwo">
+        <Cardtwo rasm1={iso2} matn1={"Business strategy"} matn2={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et, "} matn3={"Learn More "} rasm2={iso4} />
+        <Cardtwo rasm1={iso} />
+        <Cardtwo rasm1={iso3} />
+      </div>
+
     </div>
-    
+
   )
 }
 
